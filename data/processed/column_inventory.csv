@@ -1,0 +1,80 @@
+﻿source_file,sheet_name,column_name,data_type,non_null_values,missing_values,unique_values
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,record_id,str,43,0,43
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,record_type,str,43,0,3
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,category,str,10,33,7
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,pillar,str,33,10,4
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,indicator,str,43,0,29
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,indicator_code,str,43,0,29
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,indicator_direction,str,33,10,3
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,value_numeric,float64,33,10,33
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,value_text,str,10,33,3
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,value_type,str,43,0,6
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,unit,str,33,10,8
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,observation_date,datetime64[us],43,0,25
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,period_start,datetime64[us],10,33,4
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,period_end,datetime64[us],10,33,4
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,fiscal_year,object,43,0,13
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,gender,str,43,0,3
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,location,str,43,0,1
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,source_name,str,43,0,25
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,source_type,str,43,0,7
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,source_url,str,31,12,8
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,confidence,str,43,0,2
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,comparable_country,str,43,0,1
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,collected_by,datetime64[us],43,0,1
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,collection_date,str,10,33,10
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,original_text,str,33,10,32
+ethiopia_fi_unified_data.xlsx,Impact_sheet,record_id,str,14,0,14
+ethiopia_fi_unified_data.xlsx,Impact_sheet,parent_id,str,14,0,8
+ethiopia_fi_unified_data.xlsx,Impact_sheet,record_type,str,14,0,1
+ethiopia_fi_unified_data.xlsx,Impact_sheet,pillar,str,14,0,4
+ethiopia_fi_unified_data.xlsx,Impact_sheet,indicator,str,14,0,14
+ethiopia_fi_unified_data.xlsx,Impact_sheet,value_numeric,float64,12,2,7
+ethiopia_fi_unified_data.xlsx,Impact_sheet,value_type,str,14,0,3
+ethiopia_fi_unified_data.xlsx,Impact_sheet,unit,str,14,0,3
+ethiopia_fi_unified_data.xlsx,Impact_sheet,observation_date,datetime64[us],14,0,8
+ethiopia_fi_unified_data.xlsx,Impact_sheet,gender,str,14,0,1
+ethiopia_fi_unified_data.xlsx,Impact_sheet,location,str,14,0,1
+ethiopia_fi_unified_data.xlsx,Impact_sheet,confidence,str,14,0,2
+ethiopia_fi_unified_data.xlsx,Impact_sheet,related_indicator,str,14,0,9
+ethiopia_fi_unified_data.xlsx,Impact_sheet,relationship_type,str,14,0,3
+ethiopia_fi_unified_data.xlsx,Impact_sheet,impact_direction,str,14,0,2
+ethiopia_fi_unified_data.xlsx,Impact_sheet,impact_magnitude,str,14,0,3
+ethiopia_fi_unified_data.xlsx,Impact_sheet,impact_estimate,float64,12,2,7
+ethiopia_fi_unified_data.xlsx,Impact_sheet,lag_months,int64,14,0,5
+ethiopia_fi_unified_data.xlsx,Impact_sheet,evidence_basis,str,14,0,3
+ethiopia_fi_unified_data.xlsx,Impact_sheet,comparable_country,str,7,7,4
+ethiopia_fi_unified_data.xlsx,Impact_sheet,collected_by,str,14,0,1
+ethiopia_fi_unified_data.xlsx,Impact_sheet,collection_date,datetime64[us],14,0,1
+ethiopia_fi_unified_data.xlsx,Impact_sheet,notes,str,14,0,13
+reference_codes.xlsx,reference_codes,field,str,71,0,13
+reference_codes.xlsx,reference_codes,code,str,71,0,67
+reference_codes.xlsx,reference_codes,description,str,71,0,71
+reference_codes.xlsx,reference_codes,applies_to,str,71,0,5
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_0,object,14,1,13
+Additional Data Points Guide.xlsx,A. Alternative Baselines,integrated_financial_access_usage_index_ifau_index,str,14,1,13
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_2,str,10,5,4
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_3,str,10,5,6
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_4,str,11,4,2
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_5,str,11,4,10
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_6,str,11,4,11
+Additional Data Points Guide.xlsx,A. Alternative Baselines,unnamed_7,str,1,14,1
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_0,object,20,5,18
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_1,str,20,5,19
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_2,str,16,9,2
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_3,str,16,9,16
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_4,str,21,4,13
+Additional Data Points Guide.xlsx,B. Direct Corrln,unnamed_5,str,1,24,1
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_0,object,21,0,18
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_1,str,21,0,21
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_2,str,17,4,7
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_3,str,17,4,17
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_4,str,9,12,5
+Additional Data Points Guide.xlsx,C. Indirect Corrln,unnamed_5,str,1,20,1
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_0,object,15,0,14
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_1,str,9,6,9
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_2,str,4,11,4
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_3,str,3,12,3
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_4,str,4,11,4
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_5,str,1,14,1
+Additional Data Points Guide.xlsx,D. Market Naunces,unnamed_6,str,1,14,1

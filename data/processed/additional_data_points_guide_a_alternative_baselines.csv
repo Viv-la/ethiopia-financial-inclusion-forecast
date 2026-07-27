@@ -1,0 +1,16 @@
+﻿unnamed_0,integrated_financial_access_usage_index_ifau_index,unnamed_2,unnamed_3,unnamed_4,unnamed_5,unnamed_6,unnamed_7
+A,Alternative Baseline Surveys,,,,,,
+B,Potential Direct Corelating Data Points,,,,,,
+C,Potential Indirect (Enablers or Proxies) Corelating Data Points,,,,,,
+D,Naunces and Market Contexts,,,,,,
+A,Alternative Baseline Surveys,Type,Geographic Scope,Ethiopia Included?,Highlights,Link to Data,Notes
+1,IMF Financial Access Survey (FAS),Supply Side,160+ Countries,Yes,"Bank branches, ATMs, mobile money accounts, gender-disaggregated",Imf-releases-the-2025-financial-access-survey-results,
+,,,,Yes,"Bank branches, ATMs, mobile money accounts, gender-disaggregated",Data Explorer,
+2,G20 Financial Inclusion Indicators (Africa),Mixed,Global (includes African countries),Yes,"Account ownership, mobile payments, agent density",https://datatopics.worldbank.org/g20fidata/,
+3,Center for Financial Inclussion,Supply Side,Global (includes African countries),Yes,"Digital Technology, Financial Services",https://www.centerforfinancialinclusion.org/technical-resources-and-data/,
+4,G20 Global Partnership for Financial Inclusion (GPFI),Mixed,141+ Countries,Yes,"Composite financial inclusion indicators covering access, usage, quality, digital payments, agent networks, SME finance; combines supply‑side data (banks, regulators) + demand‑side (Findex).",https://www.gpfi.org/data,
+5,GMSA,Mixed,Global,Yes,"Mobile Connection, Digital Economy Growth, Mobile Internet Usage, Mobile Money, Connectivity Focus, market researches and insights",https://www.gsma.com/,
+6,World bank - Global Findex,Demand side,Global,Yes,"Account ownership, payments and financial transaction, User behaviour (payment, saving and borrowing), Digital connectivity and technology use",https://www.worldbank.org/en/publication/globalfindex,
+7,International Telecommunication Union (ITU),Mixed,Global,Yes,"Infrastructure and access, Affordability and prices, Usage and demand, Regulatory environment",https://datahub.itu.int/,
+8,Financial institutions annual reports,Supply Side,Ethiopia,Yes,Individual financial institutions' financial performance and operations,Annual reports of each financial institution,
+9,National Bank of Ethiopia (NBE),Supply Side,Ethiopia,Yes,"Financial system performance, banking metrics, macro context",https://nbe.gov.et/,
