@@ -1,0 +1,4 @@
+﻿target_indicator,target_year,target_value,matched_forecast_indicator,comparison_year,baseline_forecast,optimistic_scenario,conservative_scenario,baseline_gap,target_status
+Account Ownership Rate,2025,70.0,Account Ownership Rate,2025,54.241379310344826,54.241379310344826,54.241379310344826,-15.758620689655174,Target remains above modelled scenarios
+Fayda Digital ID Enrollment,2028,90000000.0,Fayda Digital ID Enrollment,2028,29999999.999999985,29999999.999999985,29999999.999999985,-60000000.000000015,Target remains above modelled scenarios
+Female Mobile Money Account Share,2030,50.0,Mobile Money Account Rate,2030,18.949999999999992,18.949999999999992,18.949999999999992,-31.050000000000008,Target remains above modelled scenarios
