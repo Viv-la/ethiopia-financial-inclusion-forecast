@@ -1,0 +1,8 @@
+﻿source_file,sheet_name,rows,columns,missing_cells,duplicate_rows,id_column_checked,duplicate_ids
+ethiopia_fi_unified_data.xlsx,ethiopia_fi_unified_data,43,25,227,0,,0
+ethiopia_fi_unified_data.xlsx,Impact_sheet,14,23,11,0,parent_id,6
+reference_codes.xlsx,reference_codes,71,4,0,0,,0
+Additional Data Points Guide.xlsx,A. Alternative Baselines,15,8,38,0,,0
+Additional Data Points Guide.xlsx,B. Direct Corrln,25,6,56,0,,0
+Additional Data Points Guide.xlsx,C. Indirect Corrln,21,6,40,0,,0
+Additional Data Points Guide.xlsx,D. Market Naunces,15,7,68,0,,0
