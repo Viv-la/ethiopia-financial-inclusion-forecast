@@ -1,0 +1,11 @@
+﻿indicator_clean,indicator_group,year_numeric,value_type,value_numeric_clean
+Account Ownership Gender Gap,Account ownership,2021,gap_pp,20.0
+Account Ownership Gender Gap,Account ownership,2024,gap_pp,18.0
+Account Ownership Rate,Account ownership,2014,percentage,22.0
+Account Ownership Rate,Account ownership,2017,percentage,35.0
+Account Ownership Rate,Account ownership,2021,percentage,46.0
+Account Ownership Rate,Account ownership,2024,percentage,49.0
+Fayda Digital ID Enrollment,Fayda Digital ID Enrollment,2024,count,8000000.0
+Fayda Digital ID Enrollment,Fayda Digital ID Enrollment,2025,count,13500000.0
+Mobile Money Account Rate,Digital payment usage,2021,percentage,4.7
+Mobile Money Account Rate,Digital payment usage,2024,percentage,9.45
