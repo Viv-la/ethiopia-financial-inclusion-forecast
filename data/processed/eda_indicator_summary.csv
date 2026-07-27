@@ -1,0 +1,20 @@
+indicator_group,indicator,observations,minimum,maximum,mean,first_year,last_year
+Account ownership,Account Ownership Rate,6,22.0,56.0,40.666666666666664,2014,2024
+Account ownership,Fayda Digital ID Enrollment,3,8000000.0,15000000.0,11666666.666666666,2024,2025
+Account ownership,4G Population Coverage,2,37.5,70.8,54.15,2022,2024
+Account ownership,Account Ownership Gender Gap,2,18.0,20.0,19.0,2021,2024
+Account ownership,Mobile Subscription Penetration,1,61.4,61.4,61.4,2025,2025
+Affordability,Data Affordability Index,1,2.0,2.0,2.0,2024,2024
+Digital payment usage,Mobile Money Account Rate,2,4.7,9.45,7.074999999999999,2021,2024
+Digital payment usage,P2P Transaction Count,2,49700000.0,128300000.0,89000000.0,2023,2024
+Digital payment usage,ATM Transaction Count,1,119300000.0,119300000.0,119300000.0,2024,2024
+Digital payment usage,ATM Transaction Value,1,156100000000.0,156100000000.0,156100000000.0,2024,2024
+Digital payment usage,Female Mobile Money Account Share,1,14.0,14.0,14.0,2024,2024
+Digital payment usage,M-Pesa 90-Day Active Users,1,7100000.0,7100000.0,7100000.0,2024,2024
+Digital payment usage,M-Pesa Registered Users,1,10800000.0,10800000.0,10800000.0,2024,2024
+Digital payment usage,Mobile Money Activity Rate,1,66.0,66.0,66.0,2024,2024
+Digital payment usage,P2P Transaction Value,1,577700000000.0,577700000000.0,577700000000.0,2024,2024
+Digital payment usage,P2P/ATM Crossover Ratio,1,1.08,1.08,1.08,2024,2024
+Digital payment usage,Telebirr Registered Users,1,54840000.0,54840000.0,54840000.0,2024,2024
+Digital payment usage,Telebirr Transaction Value,1,2380000000000.0,2380000000000.0,2380000000000.0,2024,2024
+Gender inclusion,Mobile Phone Gender Gap,1,24.0,24.0,24.0,2024,2024
