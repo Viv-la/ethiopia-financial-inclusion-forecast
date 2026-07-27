@@ -1,0 +1,9 @@
+﻿event_id,event_name,event_label_short,linked_indicators,total_links,net_weighted_impact,mean_confidence,mean_lag_months
+EVT_0001,Telebirr Launch,Telebirr Launch,3,3,2.5,0.8333333333333334,7.0
+EVT_0003,M-Pesa Ethiopia Launch,M-Pesa Ethiopia Launch,2,2,1.5625,0.875,4.5
+EVT_0007,M-Pesa EthSwitch Integration,M-Pesa EthSwitch Integration,2,2,1.125,0.75,3.0
+EVT_0005,Foreign Exchange Liberalization,Foreign Exchange Liberalization,1,1,1.0,1.0,3.0
+EVT_0008,EthioPay Instant Payment System Launch,EthioPay Instant Payment System Launch,1,1,0.5625,0.75,6.0
+EVT_0010,Safaricom Ethiopia Price Increase,Safaricom Ethiopia Price Increase,1,1,0.5,1.0,1.0
+EVT_0004,Fayda Digital ID Program Rollout,Fayda Digital ID Program Rollout,2,2,0.0,0.75,24.0
+EVT_0002,Safaricom Ethiopia Commercial Launch,Safaricom Ethiopia Commercial Launch,2,2,0.0,0.75,12.0
