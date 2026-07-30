@@ -10,6 +10,14 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
+from src.dashboard_utils import (
+    clean_text,
+    find_first_column,
+    format_number,
+    normalise_columns,
+    shorten_label,
+    to_csv_bytes,
+)
 
 # ============================================================
 # PAGE CONFIGURATION
@@ -183,26 +191,6 @@ div[data-testid="stMetricLabel"] p {{
 # ============================================================
 # HELPER FUNCTIONS
 # ============================================================
-def clean_text(value):
-    if pd.isna(value):
-        return ""
-
-    return " ".join(str(value).strip().split())
-
-
-def normalise_columns(dataframe):
-    dataframe = dataframe.copy()
-    dataframe.columns = [
-        clean_text(column)
-        .lower()
-        .replace(" ", "_")
-        .replace("-", "_")
-        .replace("/", "_")
-        for column in dataframe.columns
-    ]
-    return dataframe
-
-
 def read_csv_safely(file_path):
     if file_path is None or not file_path.exists():
         return pd.DataFrame()
@@ -212,41 +200,6 @@ def read_csv_safely(file_path):
     except Exception as error:
         st.warning(f"Could not read {file_path.name}: {error}")
         return pd.DataFrame()
-
-
-def find_first_column(dataframe, candidates):
-    for candidate in candidates:
-        if candidate in dataframe.columns:
-            return candidate
-
-    return None
-
-
-def format_number(value, decimals=1):
-    if pd.isna(value):
-        return "N/A"
-
-    try:
-        number = float(value)
-    except (TypeError, ValueError):
-        return clean_text(value)
-
-    if abs(number) >= 1_000_000:
-        return f"{number / 1_000_000:.1f}M"
-
-    if abs(number) >= 1_000:
-        return f"{number / 1_000:.1f}K"
-
-    return f"{number:,.{decimals}f}"
-
-
-def shorten_label(value, maximum=48):
-    text = clean_text(value)
-
-    if len(text) <= maximum:
-        return text
-
-    return text[: maximum - 3] + "..."
 
 
 def display_header(title, subtitle):
@@ -272,10 +225,6 @@ def style_axis(axis):
     axis.spines["top"].set_visible(False)
     axis.spines["right"].set_visible(False)
     axis.grid(axis="y", linestyle="--", alpha=0.25)
-
-
-def to_csv_bytes(dataframe):
-    return dataframe.to_csv(index=False).encode("utf-8")
 
 
 # ============================================================

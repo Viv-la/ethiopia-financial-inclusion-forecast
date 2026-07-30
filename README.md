@@ -1,5 +1,10 @@
 # Forecasting Financial Inclusion in Ethiopia
 
+[![CI](https://github.com/Viv-la/ethiopia-financial-inclusion-forecast/actions/workflows/ci.yml/badge.svg)](https://github.com/Viv-la/ethiopia-financial-inclusion-forecast/actions/workflows/ci.yml)
+
+> Week 12 portfolio upgrade: modular utilities, automated tests, continuous
+> integration, complete dependency management, and stronger reproducibility.
+
 ## Project Overview
 
 This project analyses historical financial-inclusion trends in Ethiopia and develops transparent forecasts to support policy planning through 2030. It integrates historical indicators, major economic and policy events, scenario-based forecasting, target assessment, and an interactive Streamlit dashboard.
@@ -13,7 +18,8 @@ The analysis focuses particularly on:
 - The influence of policy reforms and major economic events
 - Progress towards national financial-inclusion targets
 
-The project was completed as part of the **10 Academy KAIM Week 11 Challenge**.
+The original analysis was completed for the **10 Academy KAIM Week 11
+Challenge** and professionally upgraded for the **Week 12 portfolio challenge**.
 
 ---
 
@@ -113,16 +119,24 @@ The dashboard contains:
 .
 ├── app/
 │   └── dashboard.py
+├── .github/workflows/
+│   └── ci.yml
 ├── data/
 │   ├── raw/
-│   ├── processed/
-│   └── enriched/
-├── notebooks/
+│   └── processed/
 ├── reports/
+│   ├── week_12_gap_analysis.md
 │   └── figures/
-├── scripts/
 ├── src/
+│   ├── dashboard_utils.py
+│   ├── event_impact_analysis.py
+│   ├── exploratory_analysis.py
+│   ├── forecasting_analysis.py
+│   └── prepare_data.py
 ├── tests/
+│   └── test_dashboard_utils.py
+├── pyproject.toml
+├── requirements-dev.txt
 ├── requirements.txt
 └── README.md
 ```
@@ -173,6 +187,55 @@ If a requirements file is unavailable, install the main packages directly:
 ```powershell
 py -m pip install pandas numpy matplotlib streamlit
 ```
+
+For development, testing, and quality checks:
+
+```powershell
+py -m pip install -r requirements-dev.txt
+```
+
+---
+
+## Reproducing and Verifying the Project
+
+Run the analytical pipeline from the repository root:
+
+```powershell
+py src\prepare_data.py
+py src\exploratory_analysis.py
+py src\event_impact_analysis.py
+py src\forecasting_analysis.py
+```
+
+Run the automated test suite and lint checks:
+
+```powershell
+py -m pytest
+py -m ruff check src/dashboard_utils.py tests
+```
+
+GitHub Actions repeats the lint and test checks automatically for every push
+and pull request to `main`.
+
+---
+
+## Week 12 Engineering Upgrade
+
+The portfolio upgrade strengthens the project without changing its analytical
+purpose:
+
+- Pure dashboard transformations were extracted into
+  `src/dashboard_utils.py`.
+- Type hints and focused docstrings make reusable code easier to understand.
+- Seven automated tests cover missing values, column normalisation, candidate
+  selection, compact numeric formatting, label truncation, and CSV exports.
+- GitHub Actions provides repeatable continuous integration.
+- Runtime and development dependencies are explicitly separated.
+- The original data, analytical outputs, dashboard, responsible-use guidance,
+  and policy narrative are preserved.
+
+The detailed before-and-after assessment is available in
+[`reports/week_12_gap_analysis.md`](reports/week_12_gap_analysis.md).
 
 ---
 
